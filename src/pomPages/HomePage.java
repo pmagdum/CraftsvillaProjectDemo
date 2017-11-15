@@ -70,6 +70,7 @@ public class HomePage
 	public void selectBanarasi()
 	{
 		Utility.action(driver,Sarees);
+		Excel.waitt(3000);
 		BanarasiSaree.click();
 		Excel.waitt(1000);
 		System.out.println("selected banarasi saree..");
