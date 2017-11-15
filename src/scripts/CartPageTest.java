@@ -12,13 +12,14 @@ import pomPages.HomePage;
 import pomPages.PDP;
 import pomPages.PLP;
 
-//@Listeners(SampleListener.class)
+
 public class CartPageTest extends BaseTest{
 	@Test
 	public void cart()
 	{
 		
 		HomePage hp = new HomePage(driver);
+		Excel.waitt(2000);
 		hp.selectBanarasi();
 		
 		//PLP plp = new PLP(driver);
