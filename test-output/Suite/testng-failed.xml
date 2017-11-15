@@ -3,22 +3,25 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="scripts.CheckoutPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="checkout"/>
+        </methods>
+      </class> <!-- scripts.CheckoutPageTest -->
+      <class name="scripts.CartPageTest">
+        <methods>
+          <include name="configSuite"/>
+          <include name="preCondition"/>
+          <include name="endReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- scripts.CartPageTest -->
       <class name="scripts.OrderSummaryTest">
         <methods>
           <include name="oredrSummary"/>
         </methods>
       </class> <!-- scripts.OrderSummaryTest -->
-      <class name="scripts.CartPageTest">
-        <methods>
-          <include name="preCondition"/>
-          <include name="postCondition"/>
-        </methods>
-      </class> <!-- scripts.CartPageTest -->
-      <class name="scripts.CheckoutPageTest">
-        <methods>
-          <include name="checkout"/>
-        </methods>
-      </class> <!-- scripts.CheckoutPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -4,8 +4,6 @@
   <test name="Test">
     <classes>
       <class name="scripts.CartPageTest"/>
-      <class name="scripts.CheckoutPageTest"/>
-      <class name="scripts.OrderSummaryTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -5,9 +5,9 @@
     <classes>
       <class name="scripts.CartPageTest">
         <methods>
+          <include name="configSuite"/>
           <include name="cart"/>
           <include name="preCondition"/>
-          <include name="postCondition"/>
         </methods>
       </class> <!-- scripts.CartPageTest -->
     </classes>

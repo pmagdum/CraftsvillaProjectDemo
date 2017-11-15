@@ -72,6 +72,7 @@ public class HomePage
 		Utility.action(driver,Sarees);
 		BanarasiSaree.click();
 		Excel.waitt(1000);
+		System.out.println("selected banarasi saree..");
 	}
 	
 }
